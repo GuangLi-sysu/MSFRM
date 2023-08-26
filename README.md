@@ -1,7 +1,32 @@
 # Generic and Scalable Risky Transactions Detection Using Density Flows: Applications to Financial Networks
 
-## Code & datasets
-We are sorting out, coming soon！
+## Description
+This project is a Python achievement for the paper "Generic and Scalable Risky Transactions Detection Using Density Flows: Applications to Financial Networks", which is a novel combinatorial optimization solution for risky transactions detection by iteratively calculating densest flow on transaction graph. 
+
+## Usage
+1. Clone the repository. 
+
+2. Install the project dependencies.
+
+    - python 3.8
+    - pandas
+    - sparse
+
+2. Download datasets. 
+
+    We provide four synthetic datasets and four real world datasets, which can download from https://www.aliyundrive.com/s/1Rx9LQheTZz. 
+    
+    User can make datasets for the algorithms, which need contain three columns, i.e. from account, to account, and transfer amount. 
+    
+    File "gen_synthetic.py" provides generation method for random synthetic dataset, which we use Ethereum real transactions as source data.
+
+3. Test algorithm on real world datasets.
+
+    Running notebook "test_on_real_dataset.ipynb".
+
+4. Test algorithm on synthetic datasets.
+    
+    Running notebook "test_on_synthetic_dataset.ipynb".
 
 ## Related hacker addresses of real datasets
 
